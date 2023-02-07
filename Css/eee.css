@@ -257,6 +257,10 @@ padding:10px 15px;
 
 /* sleder */
 
+section.slider{
+     position: relative;
+}
+
 section.slider img{
     width: 100%;
 
@@ -264,12 +268,13 @@ section.slider img{
 .all-point ,.all-point2{
     position: absolute;
     width: 100px;
+    z-index: 3;
     left: 48%;
     transition: opacity 0.5s ,visibility 0.5s;
 }
 
 .all-point{ 
-    top: 100%;
+    top: 93%;
     visibility: hidden;
     opacity: 0;
 }
