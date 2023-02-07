@@ -257,10 +257,6 @@ padding:10px 15px;
 
 /* sleder */
 
-section.slider{
-     position: relative;
-}
-
 section.slider img{
     width: 100%;
 
@@ -268,15 +264,19 @@ section.slider img{
 .all-point ,.all-point2{
     position: absolute;
     width: 100px;
-    z-index: 3;
     left: 48%;
     transition: opacity 0.5s ,visibility 0.5s;
 }
-
+section.slider{
+    position: relative;
+}
 .all-point{ 
+    position: absolute;
     top: 93%;
     visibility: hidden;
     opacity: 0;
+    z-index: 3;
+
 }
 .all-point2{
     top: 100%;
@@ -603,7 +603,7 @@ nav{
 }
 .img_section1{
     width: 180% !important;
-    height: 100% !important;
+    height: 57vh !important;
     position: relative !important;
     left: -75% !important;
 }
